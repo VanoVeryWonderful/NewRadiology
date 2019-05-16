@@ -165,17 +165,13 @@ button:focus{outline:0}
 .anatomy_part {
 	width: 40%;
 }
-.anatomy_part img:hover{
-	border:1px solid #fff;
-}
+
 
 ._pink{
 	background: pink;
 }
 
-.anatomy_part a:hover{
-	color: pink;
-}
+
 
 .button_back{
 	color: #fff;
@@ -237,6 +233,15 @@ button:focus{outline:0}
 }
 .footer_end p{
 	padding: 5px 5px;
+}
+
+.card_{
+	perspective: 1000px;
+	transform-style: preserve-3d;
+}
+
+.card_item{
+	transition: transform 0.2s;
 }
 
 
